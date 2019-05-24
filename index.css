@@ -1,0 +1,13 @@
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+fieldset {
+    width:200px;
+    height:200px;
+}
