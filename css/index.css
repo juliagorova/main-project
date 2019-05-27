@@ -9,20 +9,19 @@ fieldset {
 }
 
 header {
-    background-image: url("logo.jpg");
+    background-image: url("../images/logo.jpg");
     background-size: cover;
     height: 600px;
 }
 
-header .top .navigation ul {
-   display: flex; 
-   list-style-type: none;
+header .top .nav {
    justify-content: space-around;
-   text-decoration: none;
+   margin-left: 200px;
 }
 
-header .top .navigation ul li a {
+header .top .nav li a {
      text-decoration: none;
      text-transform: uppercase;
      color: #dba613;
+     margin-top: 20px;
 }
