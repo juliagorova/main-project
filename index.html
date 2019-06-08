@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Дирижабль</title>
-    
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
+
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
@@ -19,23 +19,26 @@
 
 <body>
     <header>
-        <div class="top">
-            <ul class="nav">
-              <li class="nav-item">
-                  <a class="nav-link" href="#aboutUs">Про нас</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#events">Події</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#new">Новинки</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#contacts">Контакти</a>
-              </li>
-          </ul>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#aboutUs">Про нас<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#new">Новинки</a>
+                    <a class="nav-item nav-link" href="#events">Події</a>
+                    <a class="nav-item nav-link" href="#contacts">Контакти</a>
+                </div>
+            </div>
+        </nav>
     </header>
+
+
+
+
+
     <section id="aboutUs">
         <h3>Авторські поєднання</h3>
         <p>Сьогодні круасани вважаються одним із символів Франції, <br>проте вперше, згідно з історичною версією, їх приготували зовсім не в цій країні, <br>а в Австрії, звідки рецепт цих смачних булочок привезла до столиці світової моди і кулінарії Марія-Антуанетта.</p>
@@ -51,14 +54,6 @@
             <li>Нічого зайвого</li>
         </ul>
     </section>
-    <section id="events">
-        <h3>У нас гостює...</h3>
-        <p>Затишний вечір не може пройти без хорошої музики!</p>
-        <p>У липні п"ємо каву з молодим львівським гуртом "Один в каноє". Занотовуйте дату в своєму календарі - 1.06.2019!</p>
-        <div class="music">
-            <img src="images/odynvkanoe.jpg" alt="один в каноє">
-        </div>
-    </section>
     <section id="new">
         <h3>Створи сам свій круасан!</h3>
         <h4>
@@ -69,6 +64,14 @@
             <li>Смузі чи фреш?</li>
             <li>I... Насолоджуйся!</li>
         </ul>
+    </section>
+    <section id="events">
+        <h3>У нас гостює...</h3>
+        <p>Затишний вечір не може пройти без хорошої музики!</p>
+        <p>У липні п"ємо каву з молодим львівським гуртом "Один в каноє". Занотовуйте дату в своєму календарі - 1.06.2019!</p>
+        <div class="music">
+            <img src="images/odynvkanoe.jpg" alt="один в каноє">
+        </div>
     </section>
     <section id="contacts">
         <h2>Напиши нам:</h2>
