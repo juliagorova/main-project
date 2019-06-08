@@ -1,6 +1,35 @@
 body {
-    font-family: 'Gentium Book Basic';
+
+    font-family: 'Neucha', cursive;
     margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /* font-family: 'Pacifico', cursive; todo: uncomment if want to use */
+    text-decoration: underline;
+}
+
+#scrollToTop {
+    display: none;
+    width: 67px;
+    height: 102px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background: url("../images/to-top-icon.png") no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+#scrollToTop:hover {
+    text-decoration: none;
+}
+
+#scrollToTop > span {
+    display: block;
+    text-align: center;
+    margin-top: 35px;
+    color: #efa24b;
 }
 
 fieldset {
@@ -14,14 +43,24 @@ header {
     height: 850px;
 }
 
-header .top .nav {
-   justify-content: space-around;
-   margin-left: 200px;
+.navbar-light .navbar-nav .nav-link {
+    text-decoration: none;
+    color: #fafaf8;
+    font-size: 26px;
+    margin: 0 35px;
 }
 
-header .top .nav li a {
-     text-decoration: none;
-     text-transform: uppercase;
-     color: #dba613;
-     margin-top: 20px;
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #bafaf8;
+    opacity: 0.8;
+}
+
+.history {
+    background-color: #f4f4f4;
+    padding: 60px 0 20px 0;
+}
+
+.history .text {
+    margin-top: 10%;
 }
