@@ -1,7 +1,6 @@
 $(document).ready(function () {
   var scrollTop = $("#scrollToTop");
 
-  // When "Scroll to top" element should be shown or hidden
   $(window).scroll(function() {
     var scrolled = $(this).scrollTop();
     if (scrolled > 100) {
@@ -11,11 +10,10 @@ $(document).ready(function () {
     }
   });
 
-  // Scroll to top function
   $(scrollTop).click(function() {
     $('html, body').animate({
       scrollTop: 0
-    }, 1500);
+    }, 900);
     return false;
   });
 });
