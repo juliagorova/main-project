@@ -44,6 +44,15 @@
     }
 }
 
+@media (min-width: 1441px) {
+    header {
+        height: 900px;
+    }
+    .ingredients {
+        height: 850px;
+    }
+}
+
 @media (max-width: 767px) {
     header .navbar-nav {
         background: rgba(0,0,0,0.4);
